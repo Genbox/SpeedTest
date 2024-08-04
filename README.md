@@ -29,7 +29,8 @@ First you need to install the needed runtimes:
 * Go: [GO 1.22.5](https://go.dev/dl/go1.22.5.windows-amd64.msi)
 * C++: [MSVC 19.40.33812](https://go.microsoft.com/fwlink/?linkid=2272610)
 
-Then you can open a command prompt and execute Run.bat
+1. Open `Developer Command Prompt for VS 2022` if you have Visual Studio 2022 installed. Alterantively, you cna add `cl` to your PATH variable.
+2. Execute `Run.bat` to compile and run each benchmark
 
 On my computer I get the following results:
 
