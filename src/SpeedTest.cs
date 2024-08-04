@@ -104,7 +104,7 @@ internal class SpeedTest
             }
             var end = Stopwatch.GetTimestamp();
             
-            Console.WriteLine((end - begin) / (double)TRIAL_COUNT + " ns");
+            Console.WriteLine(((end - begin) * 100) / (double)TRIAL_COUNT + " ns");
         }
         
         Console.WriteLine("Accumulator: " + accumulator);
